@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+
+header , footer {
+    background-color: blue;
+}
+
+.site-title {
+    color: white;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.designer-list {
+    list-style: square;
+    
+}
+
+li:nth-child(odd) {
+    background-color: yellowgreen;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+a:hover {
+    color: aqua;
+    background-color: tomato;
+}
